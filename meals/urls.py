@@ -2,6 +2,6 @@ from django.urls import path,include
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='meals_home'),  # маршрут для домашней страницы meals
+    path('', views.index, name='index'),  # маршрут для домашней страницы meals
 ]
 
